@@ -18,7 +18,7 @@
         - Login
         - Laporan calon anggota
         - Laporan kriteria dan bobot
-        - Laporan 
+        - Laporan penilaian
         
 ## Cara melakukan perubahan
 1. git add -A
