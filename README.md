@@ -18,4 +18,10 @@
         - Login
         - Laporan calon anggota
         - Laporan kriteria dan bobot
-        - Laporan penilaian
+        - Laporan 
+        
+## Cara melakukan perubahan
+1. git add -A
+2. git commit -m "pesan perubahan"
+3. git push origin maser
+4. git pull origin master
