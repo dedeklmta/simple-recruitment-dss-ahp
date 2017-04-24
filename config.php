@@ -1,7 +1,7 @@
 <?php
 
 // Koneksi database
-if (!$mysqli = new Mysqli("localhost", "root", "idiot", "rekrutmen")) {
+if (!$mysqli = new Mysqli("localhost", "root", "", "rekrutmen")) {
     die("Koneksi database gagal!");
 }
 
