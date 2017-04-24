@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             title: "Maaf!",
             text: "<?=$msg?>",
             type: "error",
-            timer: 200,
+            timer: 2000,
             confirmButtonColor: "#DD6B55"
 		})
 	</script>
