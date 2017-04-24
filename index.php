@@ -46,9 +46,9 @@ if (!isset($_SESSION["role"])) {
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Laporan <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="?page=calon_anggota">Calon Anggota</a></li>
-                                <li><a href="?page=kriteria">Kriteria</a></li>
-                                <li><a href="?page=penilaian">Penialain</a></li>
+                                <li><a href="?page=calon_anggota&laporan">Calon Anggota</a></li>
+                                <li><a href="?page=kriteria&laporan">Kriteria</a></li>
+                                <li><a href="?page=penilaian&laporan">Penialain</a></li>
                             </ul>
                         </li>
                     <?php endif; ?>

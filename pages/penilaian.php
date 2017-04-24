@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 <div class="row">
+    <?php if (!isset($_GET["laporan"])): ?>
 	<div class="col-md-4 hidden-print">
 	    <form action="<?=$_SERVER['REQUEST_URI']?>" method="POST">
             <div class="panel panel-<?= ($update) ? "warning" : "dark" ?>">
@@ -58,7 +59,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </form>
 	</div>
-	<div class="col-md-8">
+    <?php endif; ?>
+	<div class="col-md-<?=(isset($_GET["laporan"])) ? "12" : "8"?>">
         <?=(isset($alert)) ? $alert : "" ?>
 	    <div class="panel panel-dark">
 	        <div class="panel-heading"><h3 class="text-center">DAFTAR PENILAIAN</h3></div>
