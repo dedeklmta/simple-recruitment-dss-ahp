@@ -1,27 +1,28 @@
-# rekrutmen anggota baru
+# Rekrutmen anggota baru UKM Kesenian STMIK AKAKOM Yogyakarta
 
-
-## TODO
-1. Multi User
+## Cara menggunakan
+1. Clone repository
+    ```
+    git clone https://github.com:imamdigmi/simple-recruitment-dss-ahp.git
+    ```
+2. Letakkan folder didalam root direktori web server
+3. Import `database.sql`
+4. Kunjungi [localhost/simple-recruitment-dss-ahp](http://localhost/simple-recruitment-dss-ahp)
+5. Login
     - Operator
-        - Login
-        - Input calon anggota
-        - Input user
-    - Wakil
-        - Login
-        - Input data penilaian
-        - Input data kriteria dan bobot
-        - Laporan calon anggota
-        - Laporan kriteria dan bobot
-        - Laporan penilaian
-    - Ketua
-        - Login
-        - Laporan calon anggota
-        - Laporan kriteria dan bobot
-        - Laporan penilaian
-        
+        - username : operator
+        - password : operator
+    - Wakil Ketua
+        - username : wakil
+        - password : wakil
+    - Ketua Umum
+        - username : ketua
+        - password : ketua
+
 ## Cara melakukan perubahan
-1. git add -A
-2. git commit -m "pesan perubahan"
-3. git push origin maser
-4. git pull origin master
+```
+$ git add -A
+$ git commit -m "pesan perubahan"
+$ git push origin maser
+$ git pull origin master
+```
